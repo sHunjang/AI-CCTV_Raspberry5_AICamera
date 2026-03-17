@@ -1,0 +1,27 @@
+# ============================
+# 라즈베리파이5 패키지 설치
+# ============================
+
+# 1. OS 패키지 (apt)
+# sudo apt update
+# sudo apt install -y python3-picamera2 python3-opencv
+
+# 2. pip 패키지
+ultralytics          # YOLOv8
+numpy
+
+
+# ============================
+# Windows PC 패키지 설치
+# ============================
+
+# pip install -r requirements_windows.txt
+PyQt5
+
+
+# ============================
+# 공통 주의사항
+# ============================
+# - YOLOv8 모델(yolov8n.pt)은 첫 실행 시 자동 다운로드
+# - 라즈베리파이에서 ultralytics 설치 시 시간이 걸릴 수 있음
+# - picamera2는 pip가 아닌 apt로 설치해야 함
